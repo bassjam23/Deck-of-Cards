@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A66754A1E120261009B32D1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6675491E120261009B32D1 /* main.cpp */; };
+		4AF8C21A1E1206BD000E201C /* deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8C2181E1206BD000E201C /* deck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4A6675461E120261009B32D1 /* Deck of Cards */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Deck of Cards"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6675491E120261009B32D1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4AF8C2181E1206BD000E201C /* deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deck.cpp; sourceTree = "<group>"; };
+		4AF8C2191E1206BD000E201C /* deck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = deck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				4A6675491E120261009B32D1 /* main.cpp */,
+				4AF8C2181E1206BD000E201C /* deck.cpp */,
+				4AF8C2191E1206BD000E201C /* deck.hpp */,
 			);
 			path = "Deck of Cards";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF8C21A1E1206BD000E201C /* deck.cpp in Sources */,
 				4A66754A1E120261009B32D1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +252,7 @@
 				4A66754F1E120261009B32D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
